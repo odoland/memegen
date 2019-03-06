@@ -1,0 +1,127 @@
+html {
+    /* background: url("https://tse2.mm.bing.net/th?id=OIP.Z01uHDXhG56r2GjkZnr8KQHaHZ&pid=Api"); */
+    background-size: 100%;
+    background-color: hsla(0,0%,100%,0.70);
+
+}
+
+
+
+header {
+    /* color of the bar */
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: maroon;
+    border: 2px solid gold;
+    
+    /* Font */
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-style: bold;
+    font-size: x-large;
+    color: yellow;
+
+}
+
+header:hover {
+    /* special fx when you hover onto it */
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: greenyellow;
+
+    border: 3px solid pink;
+    background-color: darkolivegreen;
+}
+
+body {
+    text-align: center;
+    /* background: url(https://static.vecteezy.com/system/resources/previews/000/102/912/original/vector-free-seamless-abstract-background-6.jpg); */
+    color: #FFFAD5;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.entries {
+    background-color: #f5fdd7;
+    width:500px;
+    height: 40px;
+}
+
+#submit {
+    padding: 6px 15px;
+    border: 2px solid rgb(83, 18, 18);
+    background-color: rgb(83, 18, 18);
+    color: #fafafa;
+    width: 200px;
+}
+
+#submit:hover {
+    background-color: #fafafa;
+    color: #207cca;
+}
+.links_form {
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: 'Gloria Hallelujah';
+    font-size: 20px;
+    font-weight: bold;
+    color:#f5fdd7;
+    text-shadow: 0 0 15px black;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    text-align: center;
+    font-size: 3000%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.imagewrap {
+    position: relative;
+}
+
+.imagewrap:hover .overlay {
+    opacity: 1;
+    
+}
+
+.imagewrap:hover {
+    
+    filter: grayscale(100%);
+}
+
+.imagewrap img {
+    display: inline-block;
+    margin: auto; 
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    right: 33%;
+    left: 33%;
+
+    font-size: 200%;
+    text-shadow: 0 0 15px black;
+    overflow-wrap: break-word;
+
+}
+.top_text {
+    top: 10%;
+
+}
+
+.bot_text {
+    bottom: 10%;
+}
+
+
+
