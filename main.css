@@ -83,7 +83,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     
 }
-
+.output {
+    display: flex;
+    flex-direction: column;
+}
 .imagewrap {
     position: relative;
     display: inline-block; /* lets us display each image in flex columns */

@@ -24,7 +24,7 @@ function produceImage() {
                     </div>
 
                     <div class="overlay">
-                        X
+                    Close
                     </div>
 
 
